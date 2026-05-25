@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 Framework content changes are noted distinctly from tool / skill / repo-infrastructure changes. The framework text in `guide/` is canonical. Any change to it is treated as a breaking change to the citable artefact and triggers at least a minor version bump.
 
+## [Unreleased]
+
+Repository security and supply-chain hardening. No framework, tool, or skill content changes — the v1.0.0 citable artefact is untouched.
+
+### Added
+
+- `.github/dependabot.yml` — weekly GitHub Actions version watch
+- `.github/workflows/scorecard.yml` — OpenSSF Scorecard analysis with SARIF upload to the Security tab
+- `.github/workflows/codeql.yml` — CodeQL static analysis of the tool's inline JavaScript
+- OpenSSF Scorecard badge in `README.md`
+- Explicit response-time SLA in `SECURITY.md` (7 / 30 / 90 days)
+- Supported-versions matrix in `SECURITY.md`
+
+### Changed
+
+- `SECURITY.md` opening line updated — fonts are now self-hosted, so the "no third-party scripts beyond Google Fonts" caveat no longer applies
+
 ## [1.0.0] - 2026-05-22
 
 Initial public release.
