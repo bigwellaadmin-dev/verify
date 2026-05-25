@@ -38,13 +38,11 @@ jobs:
       - name: Lychee link checker
         uses: lycheeverse/lychee-action@1d97d84f0bc547f7b25f4c2170d87d810dc2fb2c # v2.6.1
         with:
-          # Check every committed markdown file. Skip mailto: and localhost.
-          # `--no-progress` makes the log readable. `--max-redirects` allows
-          # githubusercontent and short-link hops.
+          # Configuration lives in lychee.toml at the repo root. Args here
+          # only point lychee at the markdown files to check; everything
+          # else (accepted status codes, retries, user agent, exclude list)
+          # is driven by the config so it stays auditable in one place.
           args: >-
             --no-progress
-            --max-redirects 5
-            --exclude-mail
-            --exclude '^https?://(localhost|127\.0\.0\.1)'
             './**/*.md'
           fail: true
