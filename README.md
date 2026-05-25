@@ -3,6 +3,7 @@
 [![Licence: CC BY 4.0](https://img.shields.io/badge/Licence-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Cite this repository](https://img.shields.io/badge/Cite-CITATION.cff-blue.svg)](CITATION.cff)
 [![No tracking](https://img.shields.io/badge/No-tracking-brightgreen.svg)](#privacy)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12980/badge)](https://www.bestpractices.dev/projects/12980)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/bigwellaadmin-dev/verify/badge)](https://scorecard.dev/viewer/?uri=github.com/bigwellaadmin-dev/verify)
 [![Launch the tool](https://img.shields.io/badge/Launch-the%20tool-1a2a5c.svg)](https://bigwellaadmin-dev.github.io/verify/)
 
