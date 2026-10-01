@@ -13,6 +13,8 @@ VERIFY is an AI literacy framework for secondary and adult learners and the peop
 
 The framework is built on the finding that learners will not do that interrogation alone. They need a teacher, a mentor, or a structured conversation to make it happen. This repository gives you four ways to provide that structure.
 
+> **Companion framework:** [**EPFL — the Ethical Prompting Feedback Loop**](https://github.com/bigwellaadmin-dev/epfl). VERIFY checks *what the AI says*; EPFL checks *what it does to you* — your state going in, the friction you build in, and whether your thinking survives an agreeable machine. Run VERIFY on the sources, EPFL on yourself.
+
 ![VERIFY](assets/screenshot.png)
 
 ## What's in this repository
